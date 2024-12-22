@@ -1,0 +1,24 @@
+/* Default styles for larger screens */
+.slideImage {
+    height: 500px;
+    object-fit: cover; /* Ensures image covers the entire container */
+}
+
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    .slideImage {
+        height: 250px;
+    }
+
+    .col-md-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.active, h2 {
+    color: rgb(16, 101, 212) !important;
+}
+
+
